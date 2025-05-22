@@ -37,9 +37,6 @@ aLogin.addEventListener('click', (e) => {
     e.preventDefault()
     formLogin.style.display = 'none';
     formRegister.style.display = 'flex';
-
-    container.style.padding = "43px 200px"
-
 })
 
 aRegister.addEventListener('click', (e) => {
@@ -47,9 +44,6 @@ aRegister.addEventListener('click', (e) => {
     e.preventDefault()
     formLogin.style.display = 'flex';
     formRegister.style.display = 'none';
-
-    container.style.padding = "60px 200px"
-
 })
 
 eyeNo.addEventListener('click', () => {
